@@ -116,7 +116,10 @@ section h2 {
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
-
+.intro{
+    text-align: center;
+    font-size: larger;
+}
 .service {
     background-color: white;
     padding: 25px;
@@ -185,18 +188,13 @@ footer {
 
 <!--Product_Page-->
 
-#products-intro {
-    background-color: rgba(255, 255, 255, 0.92);
+#product-intro {
     text-align: center;
     padding: 35px;
 }
 
-#products-intro p {
-    font-size: 18px;
-}
-
 #products {
-    background-color: rgba(255, 255, 255, 0.92);
+    background-color: #1677FF;
     text-align: center;
 }
 
@@ -207,7 +205,7 @@ footer {
 }
 
 .product {
-    background-color: #F3F5F8;
+    background-color: #ffffff;
     padding: 25px;
     border-radius: 10px;
     text-align: center;
@@ -221,8 +219,8 @@ footer {
 }
 
 .product img {
-    width: 90px;
-    height: 90px;
+    width: 180px;
+    height: 180px;
     object-fit: contain;
 }
 
