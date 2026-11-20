@@ -1,0 +1,129 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F3F5F8;
+    color: #0B1F3A;
+    margin: 0;
+}
+
+header {
+    background-color: #0B1F3A;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: #1677FF;
+}
+
+section {
+    padding: 40px;
+    margin: 20px;
+}
+
+section h2 {
+    text-align: center;
+    color: #1677FF;
+}
+
+
+.hero {
+    background-color: white;
+    text-align: center;
+    padding: 60px;
+}
+
+.hero h2 {
+    font-size: 35px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #1677FF;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+
+/* Services */
+#services {
+    text-align: center;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.service {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.service img {
+    width: 60px;
+    height: 60px;
+    color: #1677FF;
+}
+
+.service h3 {
+    color: #1677FF;
+}
+
+/* About */
+#about {
+    background-color: white;
+}
+
+#about p {
+    text-align: justify;
+}
+
+/* Contact */
+#contact {
+    text-align: center;
+}
+
+#contact a {
+    display: inline-block;
+    background-color: #0B1F3A;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #0B1F3A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .services-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .services-container {
+        grid-template-columns: 1fr;
+    }
+}
