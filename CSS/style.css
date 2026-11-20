@@ -1,5 +1,4 @@
 
-/* GENERAL DESIGN */
 * {
     box-sizing: border-box;
 }
@@ -17,9 +16,9 @@ body {
     margin: 0;
 }
 
-/* HEADER */
+
 header {
-    background-color: #005cd4;
+    background-color: #0e40ab;
     color: white;
     padding: 25px;
     text-align: left;
@@ -27,7 +26,7 @@ header {
     font-weight: bold;
 }
 
-/* NAVIGATION */
+
 nav {
     text-align: right;
     margin-top: 15px;
@@ -46,7 +45,7 @@ nav a:hover {
     color: #1677FF;
 }
 
-/* GENERAL SECTIONS */
+
 section {
     padding: 40px;
     margin: 25px;
@@ -58,7 +57,7 @@ section h2 {
     color: #1677FF;
 }
 
-/* HOME / COMPANY PROFILE */
+
 #home {
     background-color: rgba(255, 255, 255, 0.92);
     font-size: larger;
@@ -94,7 +93,7 @@ section h2 {
 .profile-image {
     flex: 1;
     text-align: center;
-    background-color: #E5F0FF;
+    background-color: #0e40ab;
     padding: 30px;
     border-radius: 12px;
 }
@@ -105,11 +104,11 @@ section h2 {
     height: auto;
 }
 
-/* SERVICES */
+
 #services {
     text-align: center;
     font-size: larger;
-    background-color: rgba(255, 255, 255, 0.92);
+    background-color: #0e40ab;
 }
 
 .services-container {
@@ -176,9 +175,63 @@ section h2 {
     color: white;
 }
 
+
 footer {
     background-color: #0B1F3A;
     color: white;
     text-align: center;
     padding: 20px;
 }
+
+<!--Product_Page-->
+
+#products-intro {
+    background-color: rgba(255, 255, 255, 0.92);
+    text-align: center;
+    padding: 35px;
+}
+
+#products-intro p {
+    font-size: 18px;
+}
+
+#products {
+    background-color: rgba(255, 255, 255, 0.92);
+    text-align: center;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.product {
+    background-color: #F3F5F8;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.product img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+
+.product h3 {
+    color: #1677FF;
+}
+
+.product p {
+    line-height: 1.6;
+    min-height: 75px;
+}
+
